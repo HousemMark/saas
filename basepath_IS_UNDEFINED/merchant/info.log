@@ -1,0 +1,258 @@
+2020-09-01 17:39:48.385  main c.u.m.web.UnitMerchantApplication INFO - Starting UnitMerchantApplication on DESKTOP-6C1G8VU with PID 24052 (F:\JavaProject\demo\saas\merchant\merchant-web\target\classes started by Administrator in F:\JavaProject\demo\saas) 
+2020-09-01 17:39:48.388  main c.u.m.web.UnitMerchantApplication INFO - The following profiles are active: local 
+2020-09-01 17:39:49.272  main o.m.s.mapper.ClassPathMapperScanner WARN - No MyBatis mapper was found in '[com.unit.merchant.web]' package. Please check your configuration. 
+2020-09-01 17:39:49.911  main o.s.b.w.e.tomcat.TomcatWebServer INFO - Tomcat initialized with port(s): 8103 (http) 
+2020-09-01 17:39:49.923  main o.a.coyote.http11.Http11NioProtocol INFO - Initializing ProtocolHandler ["http-nio-8103"] 
+2020-09-01 17:39:49.924  main o.a.catalina.core.StandardService INFO - Starting service [Tomcat] 
+2020-09-01 17:39:49.925  main o.a.catalina.core.StandardEngine INFO - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+2020-09-01 17:39:50.041  main o.a.c.c.C.[Tomcat].[localhost].[/] INFO - Initializing Spring embedded WebApplicationContext 
+2020-09-01 17:39:50.042  main o.s.web.context.ContextLoader INFO - Root WebApplicationContext: initialization completed in 1570 ms 
+2020-09-01 17:39:50.259  main o.s.s.c.ThreadPoolTaskExecutor INFO - Initializing ExecutorService 'applicationTaskExecutor' 
+2020-09-01 17:39:50.640  main o.a.coyote.http11.Http11NioProtocol INFO - Starting ProtocolHandler ["http-nio-8103"] 
+2020-09-01 17:39:50.666  main o.s.b.w.e.tomcat.TomcatWebServer INFO - Tomcat started on port(s): 8103 (http) with context path '' 
+2020-09-01 17:39:50.680  main c.u.m.web.UnitMerchantApplication INFO - Started UnitMerchantApplication in 2.814 seconds (JVM running for 4.17) 
+2020-09-01 17:40:22.366  http-nio-8103-exec-2 o.a.c.c.C.[Tomcat].[localhost].[/] INFO - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020-09-01 17:40:22.366  http-nio-8103-exec-2 o.s.web.servlet.DispatcherServlet INFO - Initializing Servlet 'dispatcherServlet' 
+2020-09-01 17:40:22.372  http-nio-8103-exec-2 o.s.web.servlet.DispatcherServlet INFO - Completed initialization in 5 ms 
+2020-09-01 17:41:46.893  SpringContextShutdownHook o.s.s.c.ThreadPoolTaskExecutor INFO - Shutting down ExecutorService 'applicationTaskExecutor' 
+2020-09-01 17:45:50.650  main c.u.m.web.UnitMerchantApplication INFO - Starting UnitMerchantApplication on DESKTOP-6C1G8VU with PID 20576 (F:\JavaProject\demo\saas\merchant\merchant-web\target\classes started by Administrator in F:\JavaProject\demo\saas) 
+2020-09-01 17:45:50.653  main c.u.m.web.UnitMerchantApplication INFO - The following profiles are active: local 
+2020-09-01 17:45:51.505  main o.m.s.mapper.ClassPathMapperScanner WARN - No MyBatis mapper was found in '[com.unit.merchant.web]' package. Please check your configuration. 
+2020-09-01 17:45:51.959  main o.s.b.w.e.tomcat.TomcatWebServer INFO - Tomcat initialized with port(s): 8103 (http) 
+2020-09-01 17:45:51.967  main o.a.coyote.http11.Http11NioProtocol INFO - Initializing ProtocolHandler ["http-nio-8103"] 
+2020-09-01 17:45:51.967  main o.a.catalina.core.StandardService INFO - Starting service [Tomcat] 
+2020-09-01 17:45:51.968  main o.a.catalina.core.StandardEngine INFO - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+2020-09-01 17:45:52.060  main o.a.c.c.C.[Tomcat].[localhost].[/] INFO - Initializing Spring embedded WebApplicationContext 
+2020-09-01 17:45:52.060  main o.s.web.context.ContextLoader INFO - Root WebApplicationContext: initialization completed in 1353 ms 
+2020-09-01 17:45:52.107  main o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'swaggerConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'unit.swagger.title' in value "${unit.swagger.title}" 
+2020-09-01 17:45:52.109  main o.a.catalina.core.StandardService INFO - Stopping service [Tomcat] 
+2020-09-01 17:45:52.127  main o.s.b.a.l.ConditionEvaluationReportLoggingListener INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2020-09-01 17:45:52.138  main o.s.boot.SpringApplication ERROR - Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'swaggerConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'unit.swagger.title' in value "${unit.swagger.title}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.unit.merchant.web.UnitMerchantApplication.main(UnitMerchantApplication.java:16)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'unit.swagger.title' in value "${unit.swagger.title}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:918)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 18 common frames omitted
+2020-09-01 17:45:52.142  main o.s.boot.SpringApplication WARN - Unable to close ApplicationContext 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:245)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:197)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:134)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:81)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:67)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:979)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:814)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.unit.merchant.web.UnitMerchantApplication.main(UnitMerchantApplication.java:16)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:94)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:76)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:347)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:299)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:430)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1798)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	... 28 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:816)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor.postProcessBeforeInitialization(ConfigurationClassPostProcessor.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	... 51 common frames omitted
+2020-09-01 17:46:44.531  main c.u.m.web.UnitMerchantApplication INFO - Starting UnitMerchantApplication on DESKTOP-6C1G8VU with PID 23760 (F:\JavaProject\demo\saas\merchant\merchant-web\target\classes started by Administrator in F:\JavaProject\demo\saas) 
+2020-09-01 17:46:44.534  main c.u.m.web.UnitMerchantApplication INFO - The following profiles are active: local 
+2020-09-01 17:46:45.391  main o.m.s.mapper.ClassPathMapperScanner WARN - No MyBatis mapper was found in '[com.unit.merchant.web]' package. Please check your configuration. 
+2020-09-01 17:46:45.853  main o.s.b.w.e.tomcat.TomcatWebServer INFO - Tomcat initialized with port(s): 8103 (http) 
+2020-09-01 17:46:45.860  main o.a.coyote.http11.Http11NioProtocol INFO - Initializing ProtocolHandler ["http-nio-8103"] 
+2020-09-01 17:46:45.861  main o.a.catalina.core.StandardService INFO - Starting service [Tomcat] 
+2020-09-01 17:46:45.861  main o.a.catalina.core.StandardEngine INFO - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+2020-09-01 17:46:45.951  main o.a.c.c.C.[Tomcat].[localhost].[/] INFO - Initializing Spring embedded WebApplicationContext 
+2020-09-01 17:46:45.951  main o.s.web.context.ContextLoader INFO - Root WebApplicationContext: initialization completed in 1356 ms 
+2020-09-01 17:46:46.264  main s.d.s.w.PropertySourcedRequestMappingHandlerMapping INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2020-09-01 17:46:46.332  main o.s.s.c.ThreadPoolTaskExecutor INFO - Initializing ExecutorService 'applicationTaskExecutor' 
+2020-09-01 17:46:46.590  main o.a.coyote.http11.Http11NioProtocol INFO - Starting ProtocolHandler ["http-nio-8103"] 
+2020-09-01 17:46:46.611  main o.s.b.w.e.tomcat.TomcatWebServer INFO - Tomcat started on port(s): 8103 (http) with context path '' 
+2020-09-01 17:46:46.613  main s.d.s.w.p.DocumentationPluginsBootstrapper INFO - Context refreshed 
+2020-09-01 17:46:46.697  main s.d.s.w.p.DocumentationPluginsBootstrapper INFO - Found 1 custom documentation plugin(s) 
+2020-09-01 17:46:46.725  main s.d.s.w.s.ApiListingReferenceScanner INFO - Scanning for api listing references 
+2020-09-01 17:46:46.801  main c.u.m.web.UnitMerchantApplication INFO - Started UnitMerchantApplication in 2.792 seconds (JVM running for 3.842) 
+2020-09-01 17:46:51.609  http-nio-8103-exec-1 o.a.c.c.C.[Tomcat].[localhost].[/] INFO - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020-09-01 17:46:51.609  http-nio-8103-exec-1 o.s.web.servlet.DispatcherServlet INFO - Initializing Servlet 'dispatcherServlet' 
+2020-09-01 17:46:51.614  http-nio-8103-exec-1 o.s.web.servlet.DispatcherServlet INFO - Completed initialization in 5 ms 
+2020-09-01 17:51:44.018  SpringContextShutdownHook o.s.s.c.ThreadPoolTaskExecutor INFO - Shutting down ExecutorService 'applicationTaskExecutor' 
+2020-09-01 17:51:48.828  main c.u.m.web.UnitMerchantApplication INFO - Starting UnitMerchantApplication on DESKTOP-6C1G8VU with PID 2536 (F:\JavaProject\demo\saas\merchant\merchant-web\target\classes started by Administrator in F:\JavaProject\demo\saas) 
+2020-09-01 17:51:48.832  main c.u.m.web.UnitMerchantApplication INFO - The following profiles are active: local 
+2020-09-01 17:51:49.698  main o.m.s.mapper.ClassPathMapperScanner WARN - No MyBatis mapper was found in '[com.unit.merchant.web]' package. Please check your configuration. 
+2020-09-01 17:51:50.254  main o.s.b.w.e.tomcat.TomcatWebServer INFO - Tomcat initialized with port(s): 8103 (http) 
+2020-09-01 17:51:50.264  main o.a.coyote.http11.Http11NioProtocol INFO - Initializing ProtocolHandler ["http-nio-8103"] 
+2020-09-01 17:51:50.265  main o.a.catalina.core.StandardService INFO - Starting service [Tomcat] 
+2020-09-01 17:51:50.265  main o.a.catalina.core.StandardEngine INFO - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+2020-09-01 17:51:50.397  main o.a.c.c.C.[Tomcat].[localhost].[/] INFO - Initializing Spring embedded WebApplicationContext 
+2020-09-01 17:51:50.398  main o.s.web.context.ContextLoader INFO - Root WebApplicationContext: initialization completed in 1492 ms 
+2020-09-01 17:51:50.764  main s.d.s.w.PropertySourcedRequestMappingHandlerMapping INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2020-09-01 17:51:50.842  main o.s.s.c.ThreadPoolTaskExecutor INFO - Initializing ExecutorService 'applicationTaskExecutor' 
+2020-09-01 17:51:51.143  main o.a.coyote.http11.Http11NioProtocol INFO - Starting ProtocolHandler ["http-nio-8103"] 
+2020-09-01 17:51:51.166  main o.s.b.w.e.tomcat.TomcatWebServer INFO - Tomcat started on port(s): 8103 (http) with context path '' 
+2020-09-01 17:51:51.168  main s.d.s.w.p.DocumentationPluginsBootstrapper INFO - Context refreshed 
+2020-09-01 17:51:51.272  main s.d.s.w.p.DocumentationPluginsBootstrapper INFO - Found 1 custom documentation plugin(s) 
+2020-09-01 17:51:51.318  main s.d.s.w.s.ApiListingReferenceScanner INFO - Scanning for api listing references 
+2020-09-01 17:51:51.450  main c.u.m.web.UnitMerchantApplication INFO - Started UnitMerchantApplication in 3.119 seconds (JVM running for 4.313) 
+2020-09-01 17:52:25.368  http-nio-8103-exec-1 o.a.c.c.C.[Tomcat].[localhost].[/] INFO - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020-09-01 17:52:25.368  http-nio-8103-exec-1 o.s.web.servlet.DispatcherServlet INFO - Initializing Servlet 'dispatcherServlet' 
+2020-09-01 17:52:25.373  http-nio-8103-exec-1 o.s.web.servlet.DispatcherServlet INFO - Completed initialization in 5 ms 
+2020-09-01 17:56:38.097  SpringContextShutdownHook o.s.s.c.ThreadPoolTaskExecutor INFO - Shutting down ExecutorService 'applicationTaskExecutor' 
+2020-09-01 17:56:42.024  main c.u.m.web.UnitMerchantApplication INFO - Starting UnitMerchantApplication on DESKTOP-6C1G8VU with PID 16288 (F:\JavaProject\demo\saas\merchant\merchant-web\target\classes started by Administrator in F:\JavaProject\demo\saas) 
+2020-09-01 17:56:42.027  main c.u.m.web.UnitMerchantApplication INFO - The following profiles are active: local 
+2020-09-01 17:56:42.749  main o.m.s.mapper.ClassPathMapperScanner WARN - No MyBatis mapper was found in '[com.unit.merchant.web]' package. Please check your configuration. 
+2020-09-01 17:56:43.187  main o.s.b.w.e.tomcat.TomcatWebServer INFO - Tomcat initialized with port(s): 8103 (http) 
+2020-09-01 17:56:43.195  main o.a.coyote.http11.Http11NioProtocol INFO - Initializing ProtocolHandler ["http-nio-8103"] 
+2020-09-01 17:56:43.196  main o.a.catalina.core.StandardService INFO - Starting service [Tomcat] 
+2020-09-01 17:56:43.196  main o.a.catalina.core.StandardEngine INFO - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+2020-09-01 17:56:43.281  main o.a.c.c.C.[Tomcat].[localhost].[/] INFO - Initializing Spring embedded WebApplicationContext 
+2020-09-01 17:56:43.281  main o.s.web.context.ContextLoader INFO - Root WebApplicationContext: initialization completed in 1195 ms 
+2020-09-01 17:56:43.589  main s.d.s.w.PropertySourcedRequestMappingHandlerMapping INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2020-09-01 17:56:43.661  main o.s.s.c.ThreadPoolTaskExecutor INFO - Initializing ExecutorService 'applicationTaskExecutor' 
+2020-09-01 17:56:43.914  main o.a.coyote.http11.Http11NioProtocol INFO - Starting ProtocolHandler ["http-nio-8103"] 
+2020-09-01 17:56:43.936  main o.s.b.w.e.tomcat.TomcatWebServer INFO - Tomcat started on port(s): 8103 (http) with context path '' 
+2020-09-01 17:56:43.937  main s.d.s.w.p.DocumentationPluginsBootstrapper INFO - Context refreshed 
+2020-09-01 17:56:43.951  main s.d.s.w.p.DocumentationPluginsBootstrapper INFO - Found 1 custom documentation plugin(s) 
+2020-09-01 17:56:44.049  main s.d.s.w.s.ApiListingReferenceScanner INFO - Scanning for api listing references 
+2020-09-01 17:56:44.129  main c.u.m.web.UnitMerchantApplication INFO - Started UnitMerchantApplication in 2.547 seconds (JVM running for 3.561) 
+2020-09-01 17:56:46.713  http-nio-8103-exec-1 o.a.c.c.C.[Tomcat].[localhost].[/] INFO - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020-09-01 17:56:46.713  http-nio-8103-exec-1 o.s.web.servlet.DispatcherServlet INFO - Initializing Servlet 'dispatcherServlet' 
+2020-09-01 17:56:46.718  http-nio-8103-exec-1 o.s.web.servlet.DispatcherServlet INFO - Completed initialization in 5 ms 
+2020-09-01 17:58:52.462  SpringContextShutdownHook o.s.s.c.ThreadPoolTaskExecutor INFO - Shutting down ExecutorService 'applicationTaskExecutor' 
+2020-09-01 17:58:56.446  main c.u.m.web.UnitMerchantApplication INFO - Starting UnitMerchantApplication on DESKTOP-6C1G8VU with PID 6512 (F:\JavaProject\demo\saas\merchant\merchant-web\target\classes started by Administrator in F:\JavaProject\demo\saas) 
+2020-09-01 17:58:56.449  main c.u.m.web.UnitMerchantApplication INFO - The following profiles are active: local 
+2020-09-01 17:58:57.421  main o.m.s.mapper.ClassPathMapperScanner WARN - No MyBatis mapper was found in '[com.unit.merchant.web]' package. Please check your configuration. 
+2020-09-01 17:58:57.966  main o.s.b.w.e.tomcat.TomcatWebServer INFO - Tomcat initialized with port(s): 8103 (http) 
+2020-09-01 17:58:57.976  main o.a.coyote.http11.Http11NioProtocol INFO - Initializing ProtocolHandler ["http-nio-8103"] 
+2020-09-01 17:58:57.977  main o.a.catalina.core.StandardService INFO - Starting service [Tomcat] 
+2020-09-01 17:58:57.977  main o.a.catalina.core.StandardEngine INFO - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+2020-09-01 17:58:58.087  main o.a.c.c.C.[Tomcat].[localhost].[/] INFO - Initializing Spring embedded WebApplicationContext 
+2020-09-01 17:58:58.087  main o.s.web.context.ContextLoader INFO - Root WebApplicationContext: initialization completed in 1576 ms 
+2020-09-01 17:58:58.429  main s.d.s.w.PropertySourcedRequestMappingHandlerMapping INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2020-09-01 17:58:58.511  main o.s.s.c.ThreadPoolTaskExecutor INFO - Initializing ExecutorService 'applicationTaskExecutor' 
+2020-09-01 17:58:58.773  main o.a.coyote.http11.Http11NioProtocol INFO - Starting ProtocolHandler ["http-nio-8103"] 
+2020-09-01 17:58:58.794  main o.s.b.w.e.tomcat.TomcatWebServer INFO - Tomcat started on port(s): 8103 (http) with context path '' 
+2020-09-01 17:58:58.796  main s.d.s.w.p.DocumentationPluginsBootstrapper INFO - Context refreshed 
+2020-09-01 17:58:58.811  main s.d.s.w.p.DocumentationPluginsBootstrapper INFO - Found 1 custom documentation plugin(s) 
+2020-09-01 17:58:58.917  main s.d.s.w.s.ApiListingReferenceScanner INFO - Scanning for api listing references 
+2020-09-01 17:58:59.002  main c.u.m.web.UnitMerchantApplication INFO - Started UnitMerchantApplication in 3.055 seconds (JVM running for 4.23) 
+2020-09-01 17:59:25.388  http-nio-8103-exec-1 o.a.c.c.C.[Tomcat].[localhost].[/] INFO - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020-09-01 17:59:25.388  http-nio-8103-exec-1 o.s.web.servlet.DispatcherServlet INFO - Initializing Servlet 'dispatcherServlet' 
+2020-09-01 17:59:25.393  http-nio-8103-exec-1 o.s.web.servlet.DispatcherServlet INFO - Completed initialization in 5 ms 
+2020-09-01 17:59:34.044  SpringContextShutdownHook o.s.s.c.ThreadPoolTaskExecutor INFO - Shutting down ExecutorService 'applicationTaskExecutor' 
+2020-09-01 17:59:37.851  main c.u.m.web.UnitMerchantApplication INFO - Starting UnitMerchantApplication on DESKTOP-6C1G8VU with PID 23944 (F:\JavaProject\demo\saas\merchant\merchant-web\target\classes started by Administrator in F:\JavaProject\demo\saas) 
+2020-09-01 17:59:37.855  main c.u.m.web.UnitMerchantApplication INFO - The following profiles are active: local 
+2020-09-01 17:59:38.641  main o.m.s.mapper.ClassPathMapperScanner WARN - No MyBatis mapper was found in '[com.unit.merchant.web]' package. Please check your configuration. 
+2020-09-01 17:59:39.155  main o.s.b.w.e.tomcat.TomcatWebServer INFO - Tomcat initialized with port(s): 8103 (http) 
+2020-09-01 17:59:39.166  main o.a.coyote.http11.Http11NioProtocol INFO - Initializing ProtocolHandler ["http-nio-8103"] 
+2020-09-01 17:59:39.167  main o.a.catalina.core.StandardService INFO - Starting service [Tomcat] 
+2020-09-01 17:59:39.167  main o.a.catalina.core.StandardEngine INFO - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+2020-09-01 17:59:39.273  main o.a.c.c.C.[Tomcat].[localhost].[/] INFO - Initializing Spring embedded WebApplicationContext 
+2020-09-01 17:59:39.274  main o.s.web.context.ContextLoader INFO - Root WebApplicationContext: initialization completed in 1358 ms 
+2020-09-01 17:59:39.590  main s.d.s.w.PropertySourcedRequestMappingHandlerMapping INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2020-09-01 17:59:39.660  main o.s.s.c.ThreadPoolTaskExecutor INFO - Initializing ExecutorService 'applicationTaskExecutor' 
+2020-09-01 17:59:39.912  main o.a.coyote.http11.Http11NioProtocol INFO - Starting ProtocolHandler ["http-nio-8103"] 
+2020-09-01 17:59:39.933  main o.s.b.w.e.tomcat.TomcatWebServer INFO - Tomcat started on port(s): 8103 (http) with context path '' 
+2020-09-01 17:59:39.934  main s.d.s.w.p.DocumentationPluginsBootstrapper INFO - Context refreshed 
+2020-09-01 17:59:40.005  main s.d.s.w.p.DocumentationPluginsBootstrapper INFO - Found 1 custom documentation plugin(s) 
+2020-09-01 17:59:40.033  main s.d.s.w.s.ApiListingReferenceScanner INFO - Scanning for api listing references 
+2020-09-01 17:59:40.112  main c.u.m.web.UnitMerchantApplication INFO - Started UnitMerchantApplication in 2.807 seconds (JVM running for 3.927) 
+2020-09-01 17:59:41.359  http-nio-8103-exec-1 o.a.c.c.C.[Tomcat].[localhost].[/] INFO - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020-09-01 17:59:41.360  http-nio-8103-exec-1 o.s.web.servlet.DispatcherServlet INFO - Initializing Servlet 'dispatcherServlet' 
+2020-09-01 17:59:41.366  http-nio-8103-exec-1 o.s.web.servlet.DispatcherServlet INFO - Completed initialization in 6 ms 
+2020-09-01 18:09:44.161  SpringContextShutdownHook o.s.s.c.ThreadPoolTaskExecutor INFO - Shutting down ExecutorService 'applicationTaskExecutor' 
+2020-09-01 18:09:47.563  main c.u.m.web.UnitMerchantApplication INFO - Starting UnitMerchantApplication on DESKTOP-6C1G8VU with PID 19932 (F:\JavaProject\demo\saas\merchant\merchant-web\target\classes started by Administrator in F:\JavaProject\demo\saas) 
+2020-09-01 18:09:47.567  main c.u.m.web.UnitMerchantApplication INFO - The following profiles are active: local 
+2020-09-01 18:09:48.274  main o.m.s.mapper.ClassPathMapperScanner WARN - No MyBatis mapper was found in '[com.unit.merchant.web]' package. Please check your configuration. 
+2020-09-01 18:09:48.725  main o.s.b.w.e.tomcat.TomcatWebServer INFO - Tomcat initialized with port(s): 8103 (http) 
+2020-09-01 18:09:48.733  main o.a.coyote.http11.Http11NioProtocol INFO - Initializing ProtocolHandler ["http-nio-8103"] 
+2020-09-01 18:09:48.733  main o.a.catalina.core.StandardService INFO - Starting service [Tomcat] 
+2020-09-01 18:09:48.734  main o.a.catalina.core.StandardEngine INFO - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+2020-09-01 18:09:48.823  main o.a.c.c.C.[Tomcat].[localhost].[/] INFO - Initializing Spring embedded WebApplicationContext 
+2020-09-01 18:09:48.824  main o.s.web.context.ContextLoader INFO - Root WebApplicationContext: initialization completed in 1204 ms 
+2020-09-01 18:09:49.113  main s.d.s.w.PropertySourcedRequestMappingHandlerMapping INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2020-09-01 18:09:49.183  main o.s.s.c.ThreadPoolTaskExecutor INFO - Initializing ExecutorService 'applicationTaskExecutor' 
+2020-09-01 18:09:49.451  main o.a.coyote.http11.Http11NioProtocol INFO - Starting ProtocolHandler ["http-nio-8103"] 
+2020-09-01 18:09:49.472  main o.s.b.w.e.tomcat.TomcatWebServer INFO - Tomcat started on port(s): 8103 (http) with context path '' 
+2020-09-01 18:09:49.474  main s.d.s.w.p.DocumentationPluginsBootstrapper INFO - Context refreshed 
+2020-09-01 18:09:49.489  main s.d.s.w.p.DocumentationPluginsBootstrapper INFO - Found 1 custom documentation plugin(s) 
+2020-09-01 18:09:49.583  main s.d.s.w.s.ApiListingReferenceScanner INFO - Scanning for api listing references 
+2020-09-01 18:09:49.670  main c.u.m.web.UnitMerchantApplication INFO - Started UnitMerchantApplication in 2.494 seconds (JVM running for 3.443) 
+2020-09-01 18:09:56.641  http-nio-8103-exec-1 o.a.c.c.C.[Tomcat].[localhost].[/] INFO - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020-09-01 18:09:56.641  http-nio-8103-exec-1 o.s.web.servlet.DispatcherServlet INFO - Initializing Servlet 'dispatcherServlet' 
+2020-09-01 18:09:56.646  http-nio-8103-exec-1 o.s.web.servlet.DispatcherServlet INFO - Completed initialization in 5 ms 
+2020-09-01 18:11:11.291  SpringContextShutdownHook o.s.s.c.ThreadPoolTaskExecutor INFO - Shutting down ExecutorService 'applicationTaskExecutor' 
