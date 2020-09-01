@@ -14,6 +14,18 @@
     <dependencies>
         <dependency>
             <groupId>com.unit</groupId>
+            <artifactId>merchant-dto</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.unit</groupId>
+            <artifactId>merchant-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.unit</groupId>
+            <artifactId>merchant-service</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.unit</groupId>
             <artifactId>merchant-dal</artifactId>
         </dependency>
         <dependency>

@@ -15,7 +15,10 @@
         <dependency>
             <groupId>com.unit</groupId>
             <artifactId>merchant-dal</artifactId>
-            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.unit</groupId>
+            <artifactId>merchant-common</artifactId>
         </dependency>
     </dependencies>
 </project>

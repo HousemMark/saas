@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="merchant-dal" />
+        <module name="merchant-common" />
         <module name="merchant-web" />
         <module name="merchant-service" />
+        <module name="merchant-dto" />
       </profile>
     </annotationProcessing>
   </component>

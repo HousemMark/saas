@@ -13,6 +13,8 @@
         <module>merchant-web</module>
         <module>merchant-dal</module>
         <module>merchant-service</module>
+        <module>merchant-dto</module>
+        <module>merchant-common</module>
     </modules>
     <dependencies>
         <dependency>
@@ -48,6 +50,16 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.unit</groupId>
+                <artifactId>merchant-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.unit</groupId>
+                <artifactId>merchant-dto</artifactId>
+                <version>${project.version}</version>
+            </dependency>
             <dependency>
                 <groupId>com.unit</groupId>
                 <artifactId>merchant-dal</artifactId>

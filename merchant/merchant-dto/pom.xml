@@ -9,17 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>merchant-dal</artifactId>
+    <artifactId>merchant-dto</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.unit</groupId>
-            <artifactId>merchant-common</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
-        </dependency>
-    </dependencies>
 
 </project>
