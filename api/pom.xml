@@ -8,16 +8,15 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>api</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>merchant-web</module>
-        <module>merchant-dal</module>
-        <module>merchant-biz</module>
-        <module>merchant-dto</module>
-        <module>merchant-common</module>
+        <module>api-web</module>
+        <module>api-biz</module>
+        <module>api-common</module>
+        <module>api-core</module>
     </modules>
-
-    <artifactId>merchant</artifactId>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -38,33 +37,17 @@
 
     <dependencyManagement>
         <dependencies>
-            <!-- 项目依赖 -->
             <dependency>
                 <groupId>com.unit</groupId>
-                <artifactId>merchant-common</artifactId>
+                <artifactId>api-biz</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.unit</groupId>
-                <artifactId>merchant-dto</artifactId>
+                <artifactId>api-web</artifactId>
                 <version>${project.version}</version>
             </dependency>
-            <dependency>
-                <groupId>com.unit</groupId>
-                <artifactId>merchant-dal</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.unit</groupId>
-                <artifactId>merchant-biz</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.unit</groupId>
-                <artifactId>merchant-web</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <!-- spring基础依赖 -->
+            <!-- spring项目依赖 -->
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
@@ -75,7 +58,6 @@
                 <artifactId>mybatis-spring-boot-starter</artifactId>
                 <version>${mybatis-spring-boot-starter-version}</version>
             </dependency>
-
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid</artifactId>

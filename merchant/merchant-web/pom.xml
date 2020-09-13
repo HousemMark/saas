@@ -22,7 +22,7 @@
         </dependency>
         <dependency>
             <groupId>com.unit</groupId>
-            <artifactId>merchant-service</artifactId>
+            <artifactId>merchant-biz</artifactId>
         </dependency>
         <dependency>
             <groupId>com.unit</groupId>
