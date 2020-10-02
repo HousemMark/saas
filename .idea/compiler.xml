@@ -10,18 +10,16 @@
         <module name="merchant-common" />
         <module name="merchant-dto" />
         <module name="api-web" />
-        <module name="merchant-biz" />
+        <module name="api-biz" />
         <module name="merchant-dal" />
         <module name="api-common" />
         <module name="base-zk-confcenter" />
         <module name="base-zk-client" />
-        <module name="api-biz" />
+        <module name="merchant-biz" />
         <module name="merchant-web" />
         <module name="api-core" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="merchant-service" target="1.5" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8" />
   </component>
 </project>
