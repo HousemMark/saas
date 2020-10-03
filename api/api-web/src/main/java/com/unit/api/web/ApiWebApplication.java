@@ -1,6 +1,7 @@
 package com.unit.api.web;
 
 
+import com.unit.api.common.ribbon.UnitHttpCliemtRibbonCommandFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -28,12 +29,12 @@ public class ApiWebApplication {
         SpringApplication.run(ApiWebApplication.class, args);
     }
 
-//    /**
-//     * 负载均衡
-//     */
-//    @Bean
-//    @ConditionalOnMissingBean
-//    public RibbonCommandFactory<?> ribbonCommandFactory(SpringClientFactory clientFactory, ZuulProperties zuulProperties) {
-//        return new UnitHttpCliemtRibbonCommandFactory(clientFactory, zuulProperties, zuulFallbackProviderSet);
-//    }
+    /**
+     * 负载均衡
+     */
+    @Bean
+    @ConditionalOnMissingBean
+    public RibbonCommandFactory<?> ribbonCommandFactory(SpringClientFactory clientFactory, ZuulProperties zuulProperties) {
+        return new UnitHttpCliemtRibbonCommandFactory(clientFactory, zuulProperties, zuulFallbackProviderSet);
+    }
 }
