@@ -7,19 +7,26 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="base-zk-common" />
-        <module name="merchant-common" />
-        <module name="merchant-dto" />
         <module name="api-web" />
         <module name="api-biz" />
-        <module name="merchant-dal" />
         <module name="api-common" />
         <module name="base-zk-confcenter" />
         <module name="base-zk-client" />
-        <module name="merchant-biz" />
-        <module name="merchant-web" />
         <module name="api-core" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="api" target="1.5" />
+      <module name="api-biz" target="1.5" />
+      <module name="api-common" target="1.5" />
+      <module name="api-core" target="1.5" />
+      <module name="api-web" target="1.5" />
+      <module name="merchant" target="1.5" />
+      <module name="merchant-biz" target="1.5" />
+      <module name="merchant-common" target="1.5" />
+      <module name="merchant-dal" target="1.5" />
+      <module name="merchant-dto" target="1.5" />
+      <module name="merchant-web" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

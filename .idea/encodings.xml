@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api/api-biz" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api/api-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api/api-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api/api-web" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/base/base-zk" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/base/base-zk/base-zk-client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/base/base-zk/base-zk-common" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/base/base-zk/base-zk-confcenter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/merchant" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/merchant/merchant-biz" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/merchant/merchant-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/merchant/merchant-dal" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/merchant/merchant-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/merchant/merchant-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/unit-base-package" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/unit-base-package/base-zk" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/unit-base-package/base-zk/base-zk-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/unit-base-package/base-zk/base-zk-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/unit-base-package/base-zk/base-zk-confcenter" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
