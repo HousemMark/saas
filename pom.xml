@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>web-controller</module>
+        <module>biz-service</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -139,6 +140,17 @@
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-swagger-ui</artifactId>
                 <version>${swagger2.version}</version>
+            </dependency>
+            <!-- 项目依赖 -->
+            <dependency>
+                <artifactId>web-controller</artifactId>
+                <version>${project.version}</version>
+                <groupId>com.unit</groupId>
+            </dependency>
+            <dependency>
+                <artifactId>biz-service</artifactId>
+                <version>${project.version}</version>
+                <groupId>com.unit</groupId>
             </dependency>
         </dependencies>
     </dependencyManagement>
