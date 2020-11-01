@@ -17,6 +17,6 @@ public class MerchantUserController {
 
     @PostMapping("/test")
     public void test(){
-
+        merchantUserService.test();
     }
 }

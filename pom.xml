@@ -10,6 +10,8 @@
     <modules>
         <module>web-controller</module>
         <module>biz-service</module>
+        <module>dal-mapper</module>
+        <module>basic-common</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -149,6 +151,16 @@
             </dependency>
             <dependency>
                 <artifactId>biz-service</artifactId>
+                <version>${project.version}</version>
+                <groupId>com.unit</groupId>
+            </dependency>
+            <dependency>
+                <artifactId>dal-mapper</artifactId>
+                <version>${project.version}</version>
+                <groupId>com.unit</groupId>
+            </dependency>
+            <dependency>
+                <artifactId>basic-common</artifactId>
                 <version>${project.version}</version>
                 <groupId>com.unit</groupId>
             </dependency>
